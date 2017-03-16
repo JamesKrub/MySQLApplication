@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         final MyListView adapter = new MyListView(this, myList);
         listView.setAdapter(adapter);
         todoListDAO.close();
-        todoListDAO.close();
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
